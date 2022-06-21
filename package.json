@@ -3,9 +3,12 @@
   "version": "1.0.0",
   "description": "speer-challenge",
   "main": "index.js",
-  "repository": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JaayTran/aircall-master-2.git"
+  },
   "author": "",
-  "license": "",
+  "license": "ISC",
   "private": false,
   "scripts": {
     "start": "webpack-dev-server --mode development --open",
@@ -32,5 +35,9 @@
     "webpack": "4.29.*",
     "webpack-cli": "3.2.*",
     "webpack-dev-server": "3.1.*"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/JaayTran/aircall-master-2/issues"
+  },
+  "homepage": "https://github.com/JaayTran/aircall-master-2#readme"
 }
