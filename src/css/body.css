@@ -1,0 +1,65 @@
+html, body, h2, h3, ul, li {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+}
+
+body {
+  background: #233142;
+  font-family: helvetica, arial, sans-serif;
+  font-size: 13px;
+  color: #333333;
+  line-height: 1;
+}
+
+.call-id {
+  margin: 1rem 0;
+}
+
+.call-detail {
+  font-size: 17px;
+}
+
+.activity-item {
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0.5rem;
+}
+
+.activity-item-left {
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.activity-item-inner {
+  margin-left: 1em;
+}
+
+.activity-item-right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.activity{
+    color: #212529;
+    text-decoration: none;
+    padding:0;
+}
+
+.activity:hover{
+  color: #212529;
+}
+
+.card-header{
+  columns: 2;
+}
+
+.card-subtitle {
+  color: #777;
+}
