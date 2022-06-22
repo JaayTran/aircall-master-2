@@ -11,8 +11,8 @@
   "license": "ISC",
   "private": false,
   "scripts": {
-    "start": "webpack-dev-server --mode development --open",
     "heroku-prebuild": "npm install --dev",
+    "start": "webpack-dev-server --mode development --open",
     "build": "webpack --mode production"
   },
   "dependencies": {
